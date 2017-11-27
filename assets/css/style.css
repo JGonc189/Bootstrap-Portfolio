@@ -1,66 +1,65 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Ubuntu:400,500,700');
-
-html,
 body {
+	background: url(../img/hypnotize.png);
 	margin: 0 auto;
-	background: url('../img/hypnotize.png');
-	height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: 'Playfair Display', serif;
-}
-
-p,
-a,
-label {
-	font-family: 'Ubuntu', sans-serif;
-	color: #777;
-	text-decoration: none;
-}
-
-
-.navbar {	
+nav {
 	height: 100px;
-	width: 100%;
-	border-bottom: 2px solid #ccc;
-	background-color: #fff;
 }
 
 .navbar-brand {
-	margin-left: 150px;
-	background-color: #4aaaa5;
-	font-size: 30px;
-	color: #fff;
-	font-family: 'Playfair Display', serif;
-	font-weight: 700;
-	padding: 26px 15px;
-	letter-spacing: 1.25px;
+	position: relative;
+	left: 100px;
+}
+.contact-icons {
+	height: 50px;
+	width: 50px;
 }
 
-.navbar-brand:hover {
-	text-decoration: none;
-	color: #fff;
+.about {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 2%;
 }
 
-.navbar-nav {
-	margin-right: 150px;
-	font-size: 16px;
+.about h1 {
+	font-size: 2.5rem;
+	color: #4aaaa5;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 5%;
+	padding: 3% 1%;
 }
 
-.navbar-nav li:nth-child(2) {
-	border-left: 1px solid #777;
-	border-right: 1px solid #777;
-	padding: 0 15px;
-	margin: 0 10px;
+.contact {
+	margin-top: 8%;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	padding: 2%;
 }
 
-ul.navbar-nav.ml-auto {
-	font-size: 16px;
-	
+.contact h2 {
+	font-size: 1.5rem;
+	color: #4aaaa5;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 5%;
+	padding: 5% 1%;
+}
+
+/* footer */
+
+.footer {
+	background-color: #666;
+	border-top: 5px solid #4aaaa5;	
+	width: 100%;	
+	margin-bottom: 0 !important;	
+}
+
+.footer p {
+	text-align: center;
+	color: #ffffff;	
+	font-size: .75rem;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
