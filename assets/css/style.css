@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Ubuntu:400,500,700');
+
+html,
+body {
+	margin: 0 auto;
+	background: url('../img/hypnotize.png');
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Playfair Display', serif;
+}
+
+p,
+a,
+label {
+	font-family: 'Ubuntu', sans-serif;
+	color: #777;
+	text-decoration: none;
+}
+
+
+.navbar {	
+	height: 100px;
+	width: 100%;
+	border-bottom: 2px solid #ccc;
+	background-color: #fff;
+}
+
+.navbar-brand {
+	margin-left: 150px;
+	background-color: #4aaaa5;
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	padding: 26px 15px;
+	letter-spacing: 1.25px;
+}
+
+.navbar-brand:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navbar-nav {
+	margin-right: 150px;
+	font-size: 16px;
+}
+
+.navbar-nav li:nth-child(2) {
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+	padding: 0 15px;
+	margin: 0 10px;
+}
+
+ul.navbar-nav.ml-auto {
+	font-size: 16px;
+	
+}
