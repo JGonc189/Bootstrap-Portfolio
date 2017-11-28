@@ -17,34 +17,56 @@
 	<body>
 
 		<!--navbar -->
+		<!-- <nav class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<a href="/" class="navbar-brand logo float-left">Jason Goncalves</a>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<ul class="nav navbar-nav flex-row float-right">
+						<li class="nav-item pl-3 pr-3"><a href="/">About</a></li>
+						<li class="nav-item pl-3 pr-3"><a href="/">Portfolio</a></li>
+						<li class="nav-item pl-3 pr-3"><a href="/">Contact</a></li>
+					</ul>
+				</div>				
+			</div>
+		</nav> -->
 		<nav class="navbar navbar-light bg-faded justify-content-between flex-wrap flex-row">
 			<div class="container">
 				<a href="/" class="navbar-brand float-left">Jason Goncalves</a>
 				<ul class="nav navbar-nav flex-row float-right">
-					<li class="nav-item pl-3 pr-3"><a href="/">About</a></li>
-					<li class="nav-item pl-3 pr-3"><a href="/">Portfolio</a></li>
-					<li class="nav-item pl-3 pr-3"><a href="/">Contact</a></li>
+					<li class="nav-item pl-3 pr-3"><a href="index.html">About</a></li>
+					<li class="nav-item pl-3 pr-3"><a href="portfolio.html">Portfolio</a></li>
+					<li class="nav-item pl-3 pr-3"><a href="contact.html">Contact</a></li>
 				</ul>
 			</div> <!-- end container -->
 		</nav>
 
 		<div class="container"> <!-- container start -->
 			<div class="row">
-				<div class="col-lg-8 col-md-8">
-					<div class="about float-md-left">
-				<h1>About Me</h1>
-				<img src="assets/img/me2.png" class="img-fluid mx-auto d-block" alt="Jason Goncalves" />
-				<p>
-						Hello, I'm Jason Goncalves, lover of tacos and all things technology.  I'm currently enrolled into the Rutgers Coding Bootcamp in Jersey City, New Jersey.  You can find my projects (currently empty) on my <a href="Portfolio.html">Portfolio Page</a> and if you like what you see feel free to <a href="contact.html">Contact Me!</a>
-					<br />
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quae aliquid quisquam
-					soluta, cupiditate explicabo, suscipit dignissimos quam repellendus aspernatur velit nihil numquam dolorem saepe amet ea placeat magnam maiores!
-				</p>
-
-				<p><a href="sticky_footer.html">Here's my sticky footer example</a></p>
+				<div class="col-lg-8 col-md-8 col-sm-8">
+					<div class="contact-form float-md-left">
+				<h1>Contact</h1>
+				<form>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<br />
+						<input type="text" class="form-control" id="name" placeholder="John Smith">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<br />
+						<input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<br />
+						<textarea class="form-control" name="message" id="message" rows="3"></textarea>
+					</div>
+				</form>
 			</div>
 				</div>
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 col-sm-4">
 					<!-- aside content -->
 			<div class="contact float-md-right">
 
@@ -58,9 +80,7 @@
 				
 			</div>
 
-			<div class="row">
-				
-			</div>
+			
 
 
 			

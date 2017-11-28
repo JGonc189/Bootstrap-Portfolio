@@ -9,6 +9,7 @@ body,
 html {
 	background: url(../img/hypnotize.png);
 	margin: 0 auto;
+	height: 100%;
 }
 
 h1,
@@ -39,9 +40,26 @@ a:hover {
 
 nav {
 	height: 100px;
+	width: 100%;
 	border-bottom: 2px solid #ccc;
 	background-color: #fff;
 }
+
+.nav-wrapper {
+	margin: 0 auto;
+}
+
+/*.logo {
+	font-family: 'Spectral SC', serif;
+	font-weight: 700;
+	font-size: 2rem;
+	margin-left: 40px;
+	background-color: #4aaaa5;	
+	max-width: 100%;
+	text-align: center;
+	padding: 2.25% 3%;
+	border: 1px solid #4aaaa5;
+}*/
 
 .navbar-brand {
 	font-family: 'Spectral SC', serif;
@@ -63,16 +81,19 @@ nav {
 /* Main Content Section */
 
 .about,
-.portfolio {
+.portfolio,
+.contact-form {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	background-color: #fff;
 	border: 1px solid #ddd;
-	padding: 2%;
+	padding: 1%;
+	height: 100%;
 }
 
 .about h1,
-.portfolio h1 {
+.portfolio h1,
+.contact-form h1 {
 	font-size: 2.5rem;
 	color: #4aaaa5;
 	border-bottom: 2px solid #ccc;
@@ -122,19 +143,23 @@ nav {
 
 
 .project-title {
-	float: left;
 	position: absolute;
 	bottom: 0px;
 	background-color: #4aaaa5;
-	color: #ffffff;
-	max-width: 100%;
+	color: #fff;
+	width: 248px;
 	text-align: center;
-	padding: 5% 7%;
+	padding: 4.5%;
 	margin-bottom: 20px;
 
 }
 
+.project-title h3 {
+	font-size: 1rem;
+}
+
 .project img {
+
 	height: 250px;
 	width: 250px;
 }
@@ -142,10 +167,10 @@ nav {
 /* Footer Section */
 
 .footer {
+	margin-top: 5%;
 	background-color: #666;
 	border-top: 5px solid #4aaaa5;	
-	width: 100%;	
-	margin-bottom: 0 !important;	
+	width: 100%;		
 }
 
 .footer p {
