@@ -89,6 +89,7 @@ nav {
 	border: 1px solid #ddd;
 	padding: 1%;
 	height: 100%;
+	width: 100%;
 }
 
 .about h1,
@@ -162,6 +163,22 @@ nav {
 
 	height: 250px;
 	width: 250px;
+}
+
+/* contact form */
+form {
+	padding: 2%;
+}
+
+.btn-primary {
+	background-color: #4aaaa5;
+	border: none;
+	border-radius: 0px;
+	padding: 1% 3%;
+}
+
+.btn-primary:hover {
+	background-color: #4aaaa5;
 }
 
 /* Footer Section */
