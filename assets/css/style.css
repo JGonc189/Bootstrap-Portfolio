@@ -44,20 +44,26 @@ nav {
 }
 
 .navbar-brand {
-	/*margin-left: 40px;*/
-	background-color: #4aaaa5;
 	font-family: 'Spectral SC', serif;
+	font-weight: 700;
 	font-size: 2rem;
-	color: #fff;
+	/*margin-left: 40px;*/
+	background-color: #4aaaa5;	
 	max-width: 100%;
 	text-align: center;
-	/*padding: 2.2% 3%;*/
-	border: 1px solid #4aaaa5;
+	padding: 2.25% 3%;
+	/*border: 1px solid #4aaaa5;*/
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover {
+	color: #fff;
 }
 
 /* Main Content Section */
 
-.about {
+.about,
+.portfolio {
 	margin-top: 5%;
 	margin-bottom: 5%;
 	background-color: #fff;
@@ -65,7 +71,8 @@ nav {
 	padding: 2%;
 }
 
-.about h1 {
+.about h1,
+.portfolio h1 {
 	font-size: 2.5rem;
 	color: #4aaaa5;
 	border-bottom: 2px solid #ccc;
@@ -99,6 +106,37 @@ nav {
 	border-bottom: 2px solid #ccc;
 	margin-bottom: 5%;
 	padding: 5% 1%;
+}
+
+/* portfolio */
+
+.project {
+	border: 1px solid #dddddd;
+	width: 250px;
+	height: 250px;
+	position: relative;
+	float: left;
+	margin: 30px;
+}
+
+
+
+.project-title {
+	float: left;
+	position: absolute;
+	bottom: 0px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	max-width: 100%;
+	text-align: center;
+	padding: 5% 7%;
+	margin-bottom: 20px;
+
+}
+
+.project img {
+	height: 250px;
+	width: 250px;
 }
 
 /* Footer Section */
