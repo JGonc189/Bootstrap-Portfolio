@@ -1,28 +1,14 @@
 /* global styling */
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500|Spectral+SC:700');
-/*
-font-family: 'Spectral SC', serif;
-font-family: 'Montserrat', sans-serif; 
-*/
+
 html {
 	position: relative;
-	/*height: 1000px;*/
 	margin: 0 auto;
 }
 
 body {
 	background: url(../img/hypnotize.png);
-	/*margin: 0 auto;*/
-	min-height: 100vh;
-	margin-bottom: 75px; /* margin bottom by footer height */
-	padding-top: 100px;
-	padding-bottom: 75px;
 }
-
-/*body > .container {
-	padding: 60px 15px 0;
-}*/
 
 h1,
 h2,
@@ -51,43 +37,20 @@ a:hover {
 /* Navigation Styling */
 
 nav {
-	height: 100px;
-	width: 100%;
 	border-bottom: 2px solid #ccc;
 	background-color: #fff;
-}
 
-.nav-wrapper {
-	margin: 0 auto;
 }
-
-/*.logo {
-	font-family: 'Spectral SC', serif;
-	font-weight: 700;
-	font-size: 2rem;
-	margin-left: 40px;
-	background-color: #4aaaa5;	
-	max-width: 100%;
-	text-align: center;
-	padding: 2.25% 3%;
-	border: 1px solid #4aaaa5;
-}*/
 
 .navbar-brand {
 	font-family: 'Spectral SC', serif;
 	font-weight: 700;
 	font-size: 2rem;
-	/*margin-left: 40px;*/
-	background-color: #4aaaa5;	
-	max-width: 100%;
-	text-align: center;
-	padding: 2.25% 3%;
-	/*border: 1px solid #4aaaa5;*/
 }
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover {
-	color: #fff;
+	color: #4aaaa5;
 }
 
 /* Main Content Section */
@@ -95,12 +58,10 @@ nav {
 .about,
 .portfolio,
 .contact-form {
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 8%;
 	background-color: #fff;
 	border: 1px solid #ddd;
 	padding: 1%;
-	height: 100%;
 	width: 100%;
 }
 
@@ -127,7 +88,7 @@ nav {
 }
 
 .contact {
-	margin-top: 8%;
+	margin-top: 15%;
 	margin-bottom: 5%;
 	border: 1px solid #ddd;
 	background-color: #fff;
@@ -195,26 +156,18 @@ form {
 
 /* Footer Section */
 
-footer {
-	position: absolute;
-	bottom: 0;
-	height: 75px; /*fixed height for sticky footer */
-	line-height: 75px;
-	margin-top: 5%;
+.footer {
 	background-color: #666;
-	border-top: 5px solid #4aaaa5;	
-	width: 100%;		
-}
-
-footer p {
+	margin-top: 5%;
+	height: 45px;
 	text-align: center;
-	color: #ffffff;	
-	font-size: .75rem;
-	/*padding-top: 2%;
-	padding-bottom: 2%;*/
+	color: #fff;
+	border-top: 3px solid #4aaaa5;
 }
 
-footer > .container {
-	padding-right: 15px;
-	padding-left: 15px;
+.footer p {
+	color: #fff;
+	font-size: 0.75rem;
+	padding-top: 1%;
 }
+

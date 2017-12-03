@@ -17,36 +17,53 @@
 	<body>
 
 		<!--navbar -->
-		<nav class="navbar navbar-light bg-faded justify-content-between flex-wrap flex-row">
-			<div class="container nav-wrapper">
-				<a href="/" class="navbar-brand float-left">Jason Goncalves</a>
-				<ul class="nav navbar-nav flex-row float-right">
-					<li class="nav-item pl-3 pr-3"><a href="/">About</a></li>
-					<li class="nav-item pl-3 pr-3"><a href="portfolio.html">Portfolio</a></li>
-					<li class="nav-item pl-3 pr-3"><a href="/">Contact</a></li>
-				</ul>
-			</div> <!-- end container -->
-		</nav>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Jason Goncalves</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+      	        <a class="nav-link" href="portfolio.html">Portfolio</a>
+
+        
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>    
+  </div>
+</nav>
+
+		
 
 		<div class="container"> <!-- container start -->
 			<div class="row">
-				<div class="col-lg-8 col-md-8">
-					<div class="about float-md-left">
+				<div class="col-lg-8 col-md-8 col-sm-8">
+					<div class="about float-md-left float-sm-left">
 				<h1>About Me</h1>
 				<img src="assets/img/me2.png" class="img-fluid mx-auto d-block" alt="Jason Goncalves" />
 				<p>
-						Hello, I'm Jason Goncalves, lover of tacos and all things technology.  I'm currently enrolled into the Rutgers Coding Bootcamp in Jersey City, New Jersey.  You can find my projects (currently empty) on my <a href="Portfolio.html">Portfolio Page</a> and if you like what you see feel free to <a href="contact.html">Contact Me!</a>
+						Hello, I'm Jason Goncalves, lover of tacos and all things technology.  I'm currently enrolled into the Rutgers Coding Bootcamp in Jersey City, New Jersey.  You can find my projects (currently empty) on my <a href="portfolio.html">Portfolio Page</a> and if you like what you see feel free to <a href="contact.html">Contact Me!</a>
 					<br />
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quae aliquid quisquam
 					soluta, cupiditate explicabo, suscipit dignissimos quam repellendus aspernatur velit nihil numquam dolorem saepe amet ea placeat magnam maiores!
 				</p>
 
-				<p><a href="sticky_footer.html">Here's my sticky footer example</a></p>
+				
 			</div>
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<!-- aside content -->
-			<div class="contact float-md-right">
+			<div class="contact float-md-right float-sm-right">
 
 				<h2>Connect With Me</h2>
 				<a href="https://www.github.com/JGonc189" target="_blank"><img src="assets/img/github.png" class="contact-icons img-fluid" alt="JGonc189 - GitHub" /></a>
@@ -69,11 +86,9 @@
 
 	
 		<!-- footer -->
-	<footer>
-		<div class="container">
+		<div class="footer">
 			<p>&copy; 2017 Jason Goncalves</p>
 		</div>
-	</footer>
 
 
 

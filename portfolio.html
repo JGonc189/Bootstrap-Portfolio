@@ -11,16 +11,32 @@
    </head>
    <body>
       <!--navbar -->
-      <nav class="navbar navbar-light bg-faded justify-content-between flex-wrap flex-row">
-         <div class="container">
-            <a href="/" class="navbar-brand float-left">Jason Goncalves</a>
-            <ul class="nav navbar-nav flex-row float-right">
-               <li class="nav-item pl-3 pr-3"><a href="index.html">About</a></li>
-               <li class="nav-item pl-3 pr-3"><a href="portfolio.html">Portfolio</a></li>
-               <li class="nav-item pl-3 pr-3"><a href="contact.html">Contact</a></li>
-            </ul>
-         </div>
-         <!-- end container -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Jason Goncalves</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+                 <a class="nav-link" href="portfolio.html">Portfolio</a>
+
+        
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>    
+  </div>
+</nav>
+   <!-- end container -->
       </nav>
       <div class="container"><!-- container start -->
          <div class="row">
@@ -67,7 +83,7 @@
          
          <div class="col-lg-4 col-md-4 col-sm-4">
             <!-- aside content -->
-            <div class="contact float-md-right">
+            <div class="contact float-md-right float-sm-right">
                <h2>Connect With Me</h2>
                <a href="https://www.github.com/JGonc189" target="_blank"><img src="assets/img/github.png" class="contact-icons img-fluid" alt="JGonc189 - GitHub" /></a>
                <a href="https://www.linkedin.com/in/jgonc189/" target="_blank"><img src="assets/img/linkedin.png" class="contact-icons img-fluid" alt="JGonc189 - LinkedIn" /></a>
@@ -77,12 +93,12 @@
       </div>
       
       </div> <!-- container end -->
-      <!-- footer -->
-   <footer>
-      <div class="container">
+      
+   <!-- footer -->
+      <div class="footer">
          <p>&copy; 2017 Jason Goncalves</p>
       </div>
-   </footer>
+
       <!-- jquery -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <!-- popper.js -->
